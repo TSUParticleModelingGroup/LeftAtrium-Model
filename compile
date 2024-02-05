@@ -1,0 +1,3 @@
+cd ./Source
+nvcc SVT.cu -o svt -lglut -lm -lGLU -lGL
+mv svt ../ExecutableFiles	

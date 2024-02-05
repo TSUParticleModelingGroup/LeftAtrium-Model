@@ -1,0 +1,3 @@
+If you remove this text file it will break everything.
+
+Because git is a git

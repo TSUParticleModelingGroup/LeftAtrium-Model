@@ -1,0 +1,6 @@
+I used the mouse and ablated around both PV groupings and then made a roof ablation with a channel missing.
+I then set the muscle contraction duration multiplier to 0.5.
+I then set the muscle recharge duration multiplier to 0.5.
+I then set the conduction velocity multiplier to 0.08.
+I then set the muscles in the fault of the roof ablation to these values with the mouse.
+Then I use the ectopic event setting and with a left-click started a roof flutter.

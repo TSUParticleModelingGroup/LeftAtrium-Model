@@ -1,0 +1,135 @@
+Common Git Commands:
+
+
+/*
+Basic Commands:
+
+git init //initializes a folder or repository in git
+
+git clone <url> //copies the repository from github
+
+git add file //adds file to the staging area (basically pre-save)
+
+git status //in short it tells you what's going on
+
+git pull //fetch updates from a remote repository and merges them with your current branch
+
+git push //pushes your new changes to a remote repository
+
+git commit //commit all staged changes (basically getting ready for push)
+
+git fetch -a //fetches all branches
+
+git checkout [branch] //moves over to the named branch
+
+git branch //creates new local branch based on the current branch
+
+*/
+
+
+
+/*
+Example: Contribute to an existing repository
+
+git clone https://github.com/me/repo.git
+
+# change into the `repo` directory
+cd repo
+
+# create a new branch to store any new changes
+git branch my-branch
+
+# switch to that branch (line of development)
+git checkout my-branch
+
+# make changes, for example, edit `file1.md` and `file2.md` using the text editor
+
+# stage the changed files
+git add file1.md file2.md
+
+# take a snapshot of the staging area (anything that's been added)
+git commit -m "my snapshot"
+
+# push changes to github
+git push --set-upstream origin my-branch
+
+*/
+
+
+
+
+/*
+
+Example: Start a new repository and publish it to GitHub
+
+# create a new directory, and initialize it with git-specific functions
+git init my-repo
+
+# change into the `my-repo` directory
+cd my-repo
+
+# create the first file in the project
+touch README.md
+
+# git isn't aware of the file, stage it
+git add README.md
+
+# take a snapshot of the staging area
+git commit -m "add README to initial commit"
+
+# provide the path for the repository you created on github
+git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+
+# push changes to github
+git push --set-upstream origin main
+
+*/
+
+
+
+
+*/
+git commit -a -m "message"
+git push --set-upstream origin wyatt 
+/*
+
+
+
+/*
+Example: contribute to an existing branch on GitHub
+
+# assumption: a project called `repo` already exists on the machine, and a new branch has been pushed to GitHub.com since the last time changes were made locally
+
+# change into the `repo` directory
+cd repo
+
+# update all remote tracking branches, and the currently checked out branch
+git pull
+
+# change into the existing branch called `feature-a`
+git checkout feature-a
+
+# make changes, for example, edit `file1.md` using the text editor
+
+# stage the changed file
+git add file1.md
+
+# take a snapshot of the staging area
+git commit -m "edit file1"
+
+# push changes to github
+git push
+
+*/
+
+/*
+
+#To overwrite local changes: 
+
+git fetch --all
+
+git reset --hard origin/[branchname]
+
+#local changes should be reset to [branchname] status
+
+/*

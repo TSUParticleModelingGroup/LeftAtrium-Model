@@ -1,0 +1,127 @@
+In this file do not use the equal sign in a comment because that is the trigger to read an input.
+The units we use are:
+Length millimeter mm
+Mass gram g
+time millisecond ms
+
+Read from NodesMuscles file (0) or read from a previous run (1).
+NodesMusclesFileOrPreviousRunsFile = 0;
+
+Name of the files that holds the nodes and muscles. 
+Line11
+Circle24
+CSphere340
+CSphere5680
+IdealLeftAtrium13.0KNotTriangle
+LeftAtriumRealRemovedAppendage
+
+Place the Nodes and Mucsle file you would like to run here.
+InputFileName = IdealLeftAtrium13.0KNotTriangle
+
+Place the name of the previuos run file you would like to run here.
+PreviousRunFileName = test
+
+Note: you will only read from a (nodes and muscle file) or from a (previuos run file) not both.
+
+
+Connection width for for the lines that represent muscles connecting the nodes. 
+1.0 to 3.0 looks good for spheres and 5.0 to 10.0 for circles. (float)	
+LineWidth = 4.0;
+
+Set the size of the node sphere here. It is scaled by the RadiusOfAtria a good value is 0.01.
+NodeRadiusAdjustment = 0.004;
+
+What we are using for the mass of a myocyte. Myocytes are approximately 80-100 micrometers or 0.08-.1 millimeters in length
+and 10-20 micrometers or 0.01-0.02 millimeters in width (Chapter 12 - Cardiovascular and Skeletal Muscle Systems
+Author links open overlay panelWanda M.HaschekColin G.RousseauxMatthew A.Wallig). Treating the myocyte as a cylinder with length 0.09 mm and diameter 0.015 mm
+you get a volume of pi*((0.015/2)^2)*0.09 which is 0.00001590431281 mm^3. 
+The clinically accepted value of myocardial tissue density is 1.055 g/ml (https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-019-0326-4).
+This gives the mass of a myocyte as 1.6779E-8 grams
+The contraction force of myocyte is about 10 micro Newtons (not sure where Avery got this need to site it.) This 1e-5 g*mm/ms^2.
+This gives force per mass of a myocyte as 596 mm/ms^2. I will use this to scale the contraction force of our muscles. (float)
+MyocyteForcePerMass = 596.0;
+
+This will be the strength of the central push back force which will simulate blood pressure.
+Our units for pressure are grams/(Millimeters*(Millisecons^2)).
+1 millimeters of mercury is 133.322387415 Pascals which is in kg/(meters*seconds*seconds).
+Putting this into our units of grams, milliseconds, millimeters gives 0.01333224.
+So 1 millimeter of Mercury is 0.000133322387415 in our units of g/(mm*ms*ms)
+Here just enter the pressure in the left or right atrium in millimeters of Mercury and we will fix the units in the code.
+To get the force on the node we will need an area to multiply the pressure by.
+We used a circle of half the average distance to all the connected nodes as the area.
+You are losing some area so we divided the lost area proportionally amount the nodes by (area of node)/(total area of sphere).
+A reasonable pressure for the right Atrium is 5 millimeterrs of mercury and for the left is 8 millimeterrs of mercury.
+BloodPressure = 80.0;
+
+A good mass for the Left atria is 25 grams and a good mass for the right atrium is 22 grams. (float) 
+MassOfAtria = 25.0;
+
+This should be the radius of the atria. The atria holds around 23640 cubic millimeters of blood which gives a radius of 17.8 millimeters. (float) 
+RadiusOfAtria = 17.8;
+
+The strength of a relaxed muscle. Probably zero but I gave it a little strength to help it return to its natural length. 
+This will be multiplied by the muscle mass to scale it. This should be much less than contraction force.
+I will check it in the code and kill the program if it is greater than the contraction strength (10.0). (float)
+BaseMuscleRelaxedStrength = 2.0;
+
+The fraction of a muscles natural length once it is contracted. 
+We think it will lose 30% of its length so this should be 0.7. (float)
+BaseMuscleCompresionStopFraction = 0.7;
+
+The length of time a muscle is contracted. 
+We think this should be around 200 milliseconds. (float)
+BaseMuscleContractionDuration = 100.0;
+20.0 works well
+
+The length of time a muscle must relaxed before it can contract again. 
+We think this should be around 200 milliseconds. (float)
+BaseMuscleRechargeDuration = 100.0;
+20.0 works well
+
+The speed of the conduction velocity across a muscle. 
+This will scaled by the muscle length to get the time it takes to cross a muscle.
+We think this should be around 0.5 millimeters/milliseconds. (float) (0.00125 for micro)
+BaseMuscleActionPotentialSpeed = 0.5;
+0.05 works well
+
+The number of ectopic periodic events allowed. The first ectopic period will be the sinus beat.
+MaxNumberOfperiodicEctopicEvents = 50;
+
+The length of time between heart beats. 
+A 1000 milliseconds is 60 beats per minute. (float)
+BeatPeriod = 500.0;
+
+How often you print the time to the terminal, in milliseconds. (float)
+PrintRate = 100.0;
+
+How often you draw to the screen. How many iterations are run between draws. (int)
+DrawRate = 1000;
+
+Your time step 0.0001 to 0.001 or whatever is the fraction of a time unit in each iteration. (float)
+Dt = 0.001;
+
+Ready color red, green, blue. (floats)
+ReadyRed = 1.0;
+ReadyGreen = 0.0;
+ReadyBlue = 0.0;
+
+Contracting color red, green, blue. (floats)
+ContractingRed = 1.0;
+ContractingGreen = 1.0;
+ContractingBlue = 0.0;
+
+Resting color red, green, blue. (floats)
+RestingRed = 1.0;
+RestingGreen = 0.71;
+RestingBlue = 0.75;
+
+Dead color red, green, blue. (floats)
+DeadRed = 1.0;
+DeadGreen = 1.0;
+DeadBlue = 1.0;
+
+Background color red, green, blue. (floats)
+BackGroundRed = 0.0;
+BackGroundGreen = 0.0;
+BackGroundBlue = 0.0;
+
