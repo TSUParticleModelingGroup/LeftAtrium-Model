@@ -24,14 +24,15 @@ This project will allow the user to identify, define, and educate about cardiac 
         - [Nvidia Driver For OpenGL](https://developer.nvidia.com/opengl-driver)
         - [OpenGL Index](https://www.khronos.org/registry/OpenGL/index_gl.php)
 #### Linux (Ubuntu/Debian)
- - sudo apt install nvidia-cuda-toolkit
- - sudo apt install mesa-utils
+  > sudo apt install nvidia-cuda-toolkit
+  > sudo apt install mesa-utils
 
 ### Building
 
 After cloning the repository, checkout out the `main` branch and set up your environment:
 
   - git checkout main
+
 
 ### Running
 
