@@ -1,4 +1,7 @@
+<img src="imgs/leftAtrium.png" width=10% height=10% class='center'></img>
+
 # Supraventricular Tachycardia Study Using a Dynamic Computer Generated Heart
+
 
 This project will allow the user to identify, define, and educate about cardiac ablations and Supraventricular Tachycardia's using an unforeseen dynamical approach to cardiac simulation.
 
