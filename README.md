@@ -4,7 +4,8 @@ This project will allow the user to identify, define, and educate about cardiac 
 
 ### Table of Contents
 - [Installation](#installation)
-  - [Requirements](#requirements)
+  - [Hardware Requirements] (link)
+  - [Software Requirements](link)
   - [Building](#building)
   - [Linux](#linux)
 - [Controls](#controls)
@@ -15,7 +16,15 @@ This project will allow the user to identify, define, and educate about cardiac 
 - [Citation](#citation)
 
 ## Installation
-### Requirements:
+### Hardware Requirements:
+- This simulation requires a CUDA-enabled GPU from Nvidia. Click <a href="https://developer.nvidia.com/cuda-gpus">here </a> for a list of GPUs.
+
+| *Note: These are guidelines, not rules | CPU                            | GPU                   | RAM       |
+|----------------------------------------|--------------------------------|-----------------------|-----------|
+| Minimum:                               | AMD/Intel Six-Core Processor   | Any CUDA-Enabled GPU  | 16GB DDR4 |
+| Recommended:                           | AMD/Intel Eight-Core Processor | RTX 3090/Quadro A6000 | 32GB DDR5 |
+
+### Software Requirements:
 
 #### This Repository contains the following:
 - [Nsight Visual Studio Code Edition](https://developer.nvidia.com/nsight-visual-studio-code-edition)
@@ -24,51 +33,31 @@ This project will allow the user to identify, define, and educate about cardiac 
         - [Nvidia Driver For OpenGL](https://developer.nvidia.com/opengl-driver)
         - [OpenGL Index](https://www.khronos.org/registry/OpenGL/index_gl.php)
 #### Linux (Ubuntu/Debian)
-  > sudo apt install nvidia-cuda-toolkit
-  > sudo apt install mesa-utils
+  Install Nvidia CUDA Toolkit:
 
-### Building
+    sudo apt install nvidia-cuda-toolkit
 
-After cloning the repository, checkout out the `main` branch and set up your environment:
+  Install Mesa Utils:
 
-  - git checkout main
+    sudo apt install mesa-utils
 
+### Building (Note: this must be done after every code change)
+
+  Navigate to the cloned folder and run the following command to build and compile the simulation:
+
+    ./compile
 
 ### Running
+  After compiling, run the simulation:
 
-Access your terminal and go ahead and compile to test everything is good and run using ./svt4.0
-
-nvcc SVT4.0.cu -o svt4.0 -lglut -lm -lGLU -lGL
-
-./svt 4.0
+    ./run
 
 ### Controls
 
   - Use the terminal to set your basic parameters (Circle or sphere and number of divisions).
   The simulation will be paused at the start. Move to the mouse over the simulation window and type the following commands.
   
-  General:
-  
-    R to Run
-    P to Pause
-    Q to End
-  Camera Controls:
-  
-    O for Orthogonal View
-    F for Fultrum View
-    C for Center View
-    N for Center on the Sinus Node
-  
-      Use Ctrl with any command below for the inverse effect.
-    
-        X to Rotate on the X-Axis
-        Y to Rotate on the Y-Axis
-        Z to Rotate on the Z-Axis
-        W to Zoom Out
-      
-  Click to ablate a node, make sure you are in orthogonal view
-  
-  Right-Click to un-ablate a node
+  <img src="imgs/commands.png" width=80% height=80%>
   
   
 ## Units of Measurement
@@ -94,11 +83,15 @@ nvcc SVT4.0.cu -o svt4.0 -lglut -lm -lGLU -lGL
 Refer to the changelog for details.
 
 ## License
+  - This code is protected by the MIT License and is free to use for personal and academic use.
 
 ## Contributing
   - Dr. Bryant Wyatt (PI)
   - Mr. Gavin McIntosh
   - Mr. Avery Campbell
+  - Mr. Derek Hopkins
+  - Ms. Leah Rogers
+  - Ms. Melanie Little
 
 ## Citation
   
