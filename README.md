@@ -4,8 +4,8 @@ This project will allow the user to identify, define, and educate about cardiac 
 
 ### Table of Contents
 - [Installation](#installation)
-  - [Hardware Requirements] (link)
-  - [Software Requirements](link)
+  - [Hardware Requirements](#hardware-requirements)
+  - [Software Requirements](#software-requirements)
   - [Building](#building)
   - [Linux](#linux)
 - [Controls](#controls)
