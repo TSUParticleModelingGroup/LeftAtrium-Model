@@ -7,11 +7,10 @@ This project will allow the user to identify, define, and educate about cardiac 
   - [Hardware Requirements](#hardware-requirements)
   - [Software Requirements](#software-requirements)
   - [Building](#building)
-  - [Linux](#linux)
+- [Running](#running)
 - [Controls](#controls)
 - [Units of Measurement](#UnitsofMeasurement)
 - [Changelog](#changelog)
-- [License](#license)
 - [Contributing](#contributing)
 - [Citation](#citation)
 
@@ -25,6 +24,8 @@ This project will allow the user to identify, define, and educate about cardiac 
 | Recommended:                           | AMD/Intel Eight-Core Processor | RTX 3090/Quadro A6000 | 32GB DDR5 |
 
 ### Software Requirements:
+
+#### Disclosure: This simulation only works on Linux-based distros currently. All development and testing was done in Ubuntu 20.04/22.04
 
 #### This Repository contains the following:
 - [Nsight Visual Studio Code Edition](https://developer.nvidia.com/nsight-visual-studio-code-edition)
@@ -47,7 +48,7 @@ This project will allow the user to identify, define, and educate about cardiac 
 
     ./compile
 
-### Running
+## Running
   After compiling, run the simulation:
 
     ./run
