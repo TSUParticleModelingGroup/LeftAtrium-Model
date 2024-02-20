@@ -156,12 +156,13 @@ Refer to the changelog for details.
   - This code is protected by the MIT License and is free to use for personal and academic use.
 
 ## Contributing
-  - Dr. Bryant Wyatt (PI)
-  - Mr. Gavin McIntosh
-  - Mr. Avery Campbell
-  - Mr. Derek Hopkins
+  - Bryant Wyatt (PI)
+  - Gavin McIntosh
+  - Avery Campbell
   - Ms. Leah Rogers
   - Ms. Melanie Little
+  - Derek Hopkins
+  - Brandon Wyatt
 
 ## References
   
