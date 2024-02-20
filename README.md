@@ -94,11 +94,14 @@ In summary, the project's objectives include developing a cutting-edge model for
    are alredy placed in this folder to use as demos. 
    {PVFlutterDemo, MicroReentryDemo, RoofFlutterDemo}
    
-### Nodes and Muscle View Size
+### Nodes and Muscle View Size, and colors
    You can set the size of the nodes and muscles with the
    LineWidth = ***;
    NodeRadiusAdjustment = ***;
-   Note: This only affects the viewing of the simulation; no actual functionality is changed with these two parameters.
+   
+   Colors to help distinguish between simulation events can all be customized at the end of the setup file. 
+   
+   Note: This only affects the viewing of the simulation; no actual functionality is changed with these parameters.
 
 ### Simulation Constants
 
@@ -108,22 +111,29 @@ In summary, the project's objectives include developing a cutting-edge model for
    RadiusOfAtria = 17.8; mm
    BaseMuscleRelaxedStrength = 2.0; This is just a force that helps the model keep its shape.
    BaseMuscleCompresionStopFraction = 0.7 This only lets a muscle fiber reduce its length by 30%
+   BeatPeriod = 1000.0; (ms)
+   MaxNumberOfperiodicEctopicEvents = 50; This just sets an upper limit to the number ectopic beats a simulation can have.
+   Note: ectopic beats are extra pulse node that the user sets in an active simulation. Ectopic triggers are single events
+   stimulated by mouse clicks.
    
-   The above are typical values are all changable in the setup file. These values are read in at the start of a simulation starts. 
+   The above are typical values and are all changable in the setup file. These values are read in at the start of a simulation. 
    They are not changable once the simulation starts. 
    
 ### Simulation Variables
-   BaseMuscleContractionDuration = 100.0;
-   BaseMuscleRechargeDuration = 100.0;
-   BaseMuscleActionPotentialSpeed = 0.5;
-### Controls
-
-  - Use the terminal to set your basic parameters (Circle or sphere and number of divisions).
-  The simulation will be paused at the start. Move to the mouse over the simulation window and type the following commands.
+   BaseMuscleContractionDuration = 200.0; (ms)
+   BaseMuscleRechargeDuration = 200.0; (ms)
+   BaseMuscleConductionVelocity = 0.5; (mm/ms)
+   
+   The above are typical values read in from the setup file at the start of a simulation. These values are all changable in an active simulation.
+   
+### Timing constants
+   PrintRate = 100.0; How often the program prints new information to the terminal screen. 
+   DrawRate = 1000; How often the program draws a new simulation picture. 
+   Dt = 0.001; How many Leap-Frog iterations are done for each ms of simulation time.
+   
+## Controls
   
   <img src="imgs/commands.png" width=80% height=80%>
-  
-
 
 ## Changelog
 

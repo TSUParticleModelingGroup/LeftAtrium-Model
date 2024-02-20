@@ -18,7 +18,9 @@ LeftAtriumRealRemovedAppendage
 Place the Nodes and Mucsle file you would like to run here.
 InputFileName = IdealLeftAtrium13.0KNotTriangle
 
-Place the name of the previuos run file you would like to run here.
+Place the name of the previous run file you would like to run here.
+The three run files below are just examples for demonstration purposes.
+When you have your own run file place the name after the equals sign. 
 PVFlutterDemo
 MicroReentryDemo
 RoofFlutterDemo
@@ -81,7 +83,7 @@ BaseMuscleRechargeDuration = 100.0;
 The speed of the conduction velocity across a muscle. 
 This will scaled by the muscle length to get the time it takes to cross a muscle.
 We think this should be around 0.5 millimeters/milliseconds. (float) (0.00125 for micro)
-BaseMuscleActionPotentialSpeed = 0.5;
+BaseMuscleConductionVelocity = 0.5;
 
 The number of ectopic periodic events allowed. The first ectopic period will be the sinus beat.
 MaxNumberOfperiodicEctopicEvents = 50;
