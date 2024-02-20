@@ -24,7 +24,7 @@ In summary, the project's objectives include developing a cutting-edge model for
 - [Installation](#installation)
   - [Hardware Requirements](#hardware-requirements)
   - [Software Requirements](#software-requirements)
-  - [Building](#building)
+  - [Building And Running](#building)
 - [Running](#running)
 - [Controls](#controls)
 - [Units of Measurement](#UnitsofMeasurement)
@@ -87,6 +87,8 @@ Media Video 11: https://youtu.be/G_ZcHeLRRjc
   Install Mesa Utils:
 
     sudo apt install mesa-utils
+    
+## Biulding and Running
 
 ### Building (Note: this must be done after every code change)
 
@@ -94,7 +96,7 @@ Media Video 11: https://youtu.be/G_ZcHeLRRjc
 
     ./compile
 
-## Running
+### Running
   After compiling, run the simulation:
 
     ./run
