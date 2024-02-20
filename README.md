@@ -163,6 +163,16 @@ Refer to the changelog for details.
   - Leah Rogers
   - Derek Hopkins
   - Brandon Wyatt
+  
+## Funding Sources
+This research was supported by the NVIDIA cooperation’s Applied Research Accelerator
+Program. Student support was provided by Tarleton State University’s Presidential
+Excellence in Research Scholars and the Bill and Winnie Wyatt Foundation.
+
+## Acknowledgments
+We would like to thank Tarleton State University’s Mathematics Department for use of
+their High-Performance Computing lab for the duration of this project.
+
 
 ## References
   
