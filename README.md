@@ -74,9 +74,9 @@ In summary, the project's objectives include developing a cutting-edge model for
 ## Setup File 
 
 ### Units of Measurement
-   Length is in millimeters (mm)
-   Time is in milliseconds (ms)
-   Mass is in grams (g)
+	Length is in millimeters (mm)
+	Time is in milliseconds (ms)
+	Mass is in grams (g)
    
 ### New Run or Previous Run
    You can start a new run using the nodes and muscles files, or you can continue a previous run.
