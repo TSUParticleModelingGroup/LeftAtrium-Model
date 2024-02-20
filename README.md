@@ -1,9 +1,12 @@
 # Simulating Left Atrial Arrhythmias with an Interactive N-body Modeling
+
+### Front View   Back View   View Through the Mitral Valve
 <img src="imgs/LAFront.jpeg" width=20% height=20% class='center'></img>
 <img src="imgs/LABack.jpeg" width=20% height=20% class='center'></img>
 <img src="imgs/LAThroughMV.jpeg" width=20% height=20% class='center'></img>
+### Pulmonary vein Flutter   Roof Flutter   Micro-reentry
 <img src="imgs/FlutterPV.jpeg" width=20% height=20% class='center'></img>
-<img src="imgs/RuffFlutter.jpeg" width=20% height=20% class='center'></img>
+<img src="imgs/RoofFlutter.jpeg" width=20% height=20% class='center'></img>
 <img src="imgs/Micro.jpeg" width=20% height=20% class='center'></img>
 
 
