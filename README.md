@@ -1,4 +1,4 @@
-<img src="imgs/LAFront" width=10% height=10% class='center'></img>
+<img src="imgs/LAFront.jpeg" width=10% height=10% class='center'></img>
 
 # Simulating Left Atrial Arrhythmias with an Interactive N-body Modeling
 
