@@ -74,7 +74,22 @@ model down to the individual muscle level and introduce ectopic events. Note: In
 when we refer to a muscle, we mean a group of cardiomyocytes. These tools can be used
 to induce arrhythmias in the LA that can be eliminated through simulated ablations. All of
 these actions can be performed interactively in a running simulation, enabling users to
-set up conditions in the simulated LA, test ablation strategies, and observe the outcomes.
+set up conditions in the simulated LA, test ablation strategies, and observe the outcomes.           
+
+Heart disease and strokes rank among the leading causes of death globally [1,2]. Supraventricular Tachycardia (SVT) significantly contributes to strokes, heart failure, and, in some cases, acute myocardial infarction [3-5]. Therefore, reducing SVT occurrence is crucial in our efforts to promote healthier lives free of cardiovascular diseases and strokes.
+
+SVT encompasses all cardiac arrhythmias originating above the ventricles. This abnormal heartbeat can disrupt the natural synchronization between the atria and ventricles, causing blood to stagnate in the left atrium (LA) and forming potentially lethal blood clots known as mural thrombi [6]. These clots can dislodge and travel to the brain or coronary arteries, leading to a stroke or heart attack, as seen in individuals with atrial fibrillation (AF) who face a five-fold increased stroke risk [7].
+
+Normally, the sinus node acts as the heart's pacemaker, generating an electrical impulse that dictates the heart's rhythm. Ectopic electrical impulses can disrupt this rhythm, causing the atria to flutter or beat out of sync with the ventricles [8].
+
+While SVT can often be controlled with medication and lifestyle changes, some drugs can be challenging to tolerate, and certain effective medications can have hepatotoxic effects [9]. Catheter ablation, though more invasive, has proven to be the most efficacious and safest method for treating recurring SVT [10-13].
+
+Advancements in radiofrequency (RF) catheter ablation and electro-anatomical mapping have enabled doctors to perform procedures on beating hearts that were once thought impossible [14,15]. However, much remains unknown about the causes of heart arrhythmias and how to treat them using RF catheter ablation [16]. A computer model of the LA, such as the one we have developed, can assist doctors, researchers, and medical students in rapidly and inexpensively testing ideas and observing outcomes.
+
+The LA was chosen for modeling due to its role in complex arrhythmias [17-20]. Our model simulates both electrical and mechanical activity, allowing users to adjust parameters at the muscle level and introduce ectopic events. These tools enable users to induce arrhythmias in the LA that can be eliminated through simulated ablations, all in an interactive simulation setting. This capability allows users to set up conditions, test ablation strategies, and observe outcomes in real-time.
+
+
+           
 
 ## Installation
 ### Hardware Requirements:
