@@ -24,7 +24,7 @@ In summary, the project's objectives include developing a cutting-edge model for
 - [Installation](#installation)
   - [Hardware Requirements](#hardware-requirements)
   - [Software Requirements](#software-requirements)
-- [Building And Running](#building)
+- [Building And Running](#building-and-running)
   - [Running](#running)
 - [Controls](#controls)
 - [Units of Measurement](#UnitsofMeasurement)
