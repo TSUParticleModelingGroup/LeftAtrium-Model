@@ -152,30 +152,12 @@ Refer to the changelog for details.
 
 ## Citation
   
-      [1] World Health Organization. (12/9/2020). The top 10 causes of death. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-of-death
-
-	[2] Virani SS, Alonso A, Aparicio HJ, Benjamin EJ, Bittencourt MS, Callaway CW,
-Carson AP, Chamberlain AM, Cheng S, Delling FN, Elkind MSV, Evenson KR,
-Ferguson JF, Gupta DK, Khan SS, Kissela BM, Knutson KL, Lee CD, Lewis
-TT, Liu J, Loop MS, Lutsey PL, Ma J, Mackey J, Martin SS, Matchar DB,
-Mussolino ME, Navaneethan SD, Perak AM, Roth GA, Samad Z, Satou GM,
-Schroeder EB, Shah SH, Shay CM, Stokes A, VanWagner LB, Wang NY,
-
-Tsao CW; American Heart Association Council on Epidemiology and
-Prevention Statistics Committee and Stroke Statistics Subcommittee. Heart
-Disease and Stroke Statistics-2021 Update: A Report From the American
-Heart Association. Circulation. 2021 Feb 23;143(8):e254-e743. doi:
-10.1161/CIR.0000000000000950. Epub 2021 Jan 27. PMID: 33501848.
-	[3] Brundel BJJM, Ai X, Hills MT, Kuipers MF, Lip GYH, de Groot NMS. Atrial fibrillation.
-Nature Reviews Disease Primers. 2022;8(1):21–21.
-	[4] Staerk L, Sherer JA, Ko D, Benjamin EJ, Helm RH. Atrial Fibrillation. Circulation
-Research. 2017;120(9):1501–1517.
-	[5] Pellman J, Sheikh F. Atrial fibrillation: mechanisms, therapeutics, and future
-directions. Comprehensive Physiology. 2015.
-	[6] Beigel R, Wunderlich NC, Ho SY, Arsanjani R, Siegel RJ. The left atrial
-appendage: anatomy, function, and noninvasive evaluation. JACC Cardiovasc
-Imaging. 2014 Dec;7(12):1251-65. doi: 10.1016/j.jcmg.2014.08.009. PMID:
-25496544.
+	[1] World Health Organization. (12/9/2020). The top 10 causes of death. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/the top-10-causes-of-death
+	[2] Virani SS, Alonso A, Aparicio HJ, Benjamin EJ, Bittencourt MS, Callaway CW, Carson AP, Chamberlain AM, Cheng S, Delling FN, Elkind MSV, Evenson KR, Ferguson JF, Gupta DK, Khan SS, Kissela BM, Knutson KL, Lee CD, Lewis TT, Liu J, Loop MS, Lutsey PL, Ma J, Mackey J, Martin SS, Matchar DB, Mussolino ME, Navaneethan SD, Perak AM, Roth GA, Samad Z, Satou GM, Schroeder EB, Shah SH, Shay CM, Stokes A, VanWagner LB, Wang NY, Tsao CW; American Heart Association Council on Epidemiology and Prevention Statistics Committee and Stroke Statistics Subcommittee. Heart Disease and Stroke Statistics-2021 Update: A Report From the American Heart Association. Circulation. 2021 Feb 23;143(8):e254-e743. doi: 10.1161/CIR.0000000000000950. Epub 2021 Jan 27. PMID: 33501848.
+	[3] Brundel BJJM, Ai X, Hills MT, Kuipers MF, Lip GYH, de Groot NMS. Atrial fibrillation. Nature Reviews Disease Primers. 2022;8(1):21–21.
+	[4] Staerk L, Sherer JA, Ko D, Benjamin EJ, Helm RH. Atrial Fibrillation. Circulation Research. 2017;120(9):1501–1517.
+	[5] Pellman J, Sheikh F. Atrial fibrillation: mechanisms, therapeutics, and future directions. Comprehensive Physiology. 2015.
+	[6] Beigel R, Wunderlich NC, Ho SY, Arsanjani R, Siegel RJ. The left atrial appendage: anatomy, function, and noninvasive evaluation. JACC Cardiovasc Imaging. 2014 Dec;7(12):1251-65. doi: 10.1016/j.jcmg.2014.08.009. PMID: 25496544.
 	[7] Singleton MJ, Imtiaz-Ahmad M, Kamel H, O'Neal WT, Judd SE, Howard VJ, Howard G,
 Soliman EZ, Bhave PD. Association of Atrial Fibrillation Without Cardiovascular
 Comorbidities and Stroke Risk: From the REGARDS Study. J Am Heart Assoc. 2020
