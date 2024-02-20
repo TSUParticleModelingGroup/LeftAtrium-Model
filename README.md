@@ -1,4 +1,4 @@
-# Simulating Left Atrial Arrhythmias with an Interactive N-body Modeling
+# Simulating Left Atrial Arrhythmias with an Interactive N-body Model
 
 ### Front View ---- Back View ---- View Through the Mitral Valve
 <img src="imgs/LAFront.jpeg" width=30% height=30% class='center'></img>
@@ -74,32 +74,48 @@ In summary, the project's objectives include developing a cutting-edge model for
 ## Setup File 
 
 ### Units of Measurement
+   Length is in millimeters (mm)
+   Time is in milliseconds (ms)
+   Mass is in grams (g)
+   
+### New Run or Previous Run
+   You can start a new run using the nodes and muscles files, or you can continue a previous run.
+   NodesMusclesFileOrPreviousRunsFile = 0, run from the selected nodes and muscles file
+   NodesMusclesFileOrPreviousRunsFile = 1, run from a previous run file
+   
+   If you selected 0, then you must set 
+   InputFileName = ***;
+   to the name of the nodes and muscles file you want to run from the list below. 
+   {Line11, Circle24, CSphere340, CSphere5680, IdealLeftAtrium13.0KNotTriangle, LeftAtriumRealRemovedAppendage}
+   
+   If you selected 1, then you must set 
+   PreviousRunFileName = ***;
+   to the name of a previous run file you saved in the PreviousRunsFile folder. The three previous run files listed below
+   are alredy placed in this folder to use as demos. 
+   {PVFlutterDemo, MicroReentryDemo, RoofFlutterDemo}
+   
+### Nodes and Muscle View Size
+   You can set the size of the nodes and muscles with the
+   LineWidth = ***;
+   NodeRadiusAdjustment = ***;
+   Note: This only affects the viewing of the simulation; no actual functionality is changed with these two parameters.
 
-    Length is in millimeters (mm)
-    Time is in milliseconds (ms)
-    Mass is in grams (g)
-
-### Constants set in the simulation setup file before a silulation runs
+### Simulation Constants
 
    Myocyte Force Per Mass strength = 596.0 mm/ms^2
+   BloodPressure = 80.0; millimeters of merculry converted to g/(mm*ms*ms) in the program.
+   MassOfAtria = 25; g
+   RadiusOfAtria = 17.8; mm
+   BaseMuscleRelaxedStrength = 2.0; This is just a force that helps the model keep its shape.
+   BaseMuscleCompresionStopFraction = 0.7 This only lets a muscle fiber reduce its length by 30%
    
-   BloodPressure = 80.0 millimeters of merculry converted to g/(mm*ms*ms) in the program.
+   The above are typical values are all changable in the setup file. These values are read in at the start of a simulation starts. 
+   They are not changable once the simulation starts. 
    
-   Left Atrium mass = 25 g
-   
-   Left Atrium Radius = 17.8 mm
-   
-   Muscle Compresion Stop Fraction = 0.7 This only lets a muscle fiber reduce its length by 30%
-   
-###  
-     Unit Constants
-        Fiber length 100 micrometers or 0.1 millimeters
-        Action Potential Speed .5 meters/sec
-        Muscle Compression Fraction is 30 percent
-        Contraction Duration is ~100 milliseconds
-        Relaxation Duration is ~200 milliseconds
-        Short Axis Circumference is 200 millimeters
-        
+### Simulation Variables
+   BaseMuscleContractionDuration = 100.0;
+   BaseMuscleRechargeDuration = 100.0;
+   BaseMuscleActionPotentialSpeed = 0.5;
 ### Controls
 
   - Use the terminal to set your basic parameters (Circle or sphere and number of divisions).
