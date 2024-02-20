@@ -74,9 +74,9 @@ In summary, the project's objectives include developing a cutting-edge model for
 ## Setup File 
 
 ### Units of Measurement
-   Length is in millimeters (mm)  
-   Time is in milliseconds (ms)  
-   Mass is in grams (g)  
+   	Length is in millimeters (mm)
+   	Time is in milliseconds (ms)
+   	Mass is in grams (g)
    
 ### New Run or Previous Run
    	You can start a new run using the nodes and muscles files, or you can continue a previous run.
@@ -116,20 +116,20 @@ In summary, the project's objectives include developing a cutting-edge model for
    	Note: ectopic beats are extra pulse node that the user sets in an active simulation. Ectopic triggers are single events
    	stimulated by mouse clicks.
    
-   The above are typical values and are all changable in the setup file. These values are read in at the start of a simulation. 
-   They are not changable once the simulation starts. 
+   	The above are typical values and are all changable in the setup file. These values are read in at the start of a simulation. 
+   	They are not changable once the simulation starts. 
    
 ### Simulation Variables
-   BaseMuscleContractionDuration = 200.0; (ms)
-   BaseMuscleRechargeDuration = 200.0; (ms)
-   BaseMuscleConductionVelocity = 0.5; (mm/ms)
+   	BaseMuscleContractionDuration = 200.0; (ms)
+   	BaseMuscleRechargeDuration = 200.0; (ms)
+   	BaseMuscleConductionVelocity = 0.5; (mm/ms)
    
-   The above are typical values read in from the setup file at the start of a simulation. These values are all changable in an active simulation.
+   	The above are typical values read in from the setup file at the start of a simulation. These values are all changable in an active simulation.
    
 ### Timing constants
-   PrintRate = 100.0; How often the program prints new information to the terminal screen. 
-   DrawRate = 1000; How often the program draws a new simulation picture. 
-   Dt = 0.001; How many Leap-Frog iterations are done for each ms of simulation time.
+   	PrintRate = 100.0; How often the program prints new information to the terminal screen. 
+   	DrawRate = 1000; How often the program draws a new simulation picture. 
+   	Dt = 0.001; How many Leap-Frog iterations are done for each ms of simulation time.
    
 ## Controls
   
