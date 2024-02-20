@@ -159,8 +159,8 @@ Refer to the changelog for details.
   - Bryant Wyatt (PI)
   - Gavin McIntosh
   - Avery Campbell
-  - Ms. Leah Rogers
-  - Ms. Melanie Little
+  - Melanie Little
+  - Leah Rogers
   - Derek Hopkins
   - Brandon Wyatt
 
