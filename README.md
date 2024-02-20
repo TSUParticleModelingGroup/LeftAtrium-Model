@@ -70,22 +70,28 @@ In summary, the project's objectives include developing a cutting-edge model for
   After compiling, run the simulation:
 
     ./run
-
-### Controls
-
-  - Use the terminal to set your basic parameters (Circle or sphere and number of divisions).
-  The simulation will be paused at the start. Move to the mouse over the simulation window and type the following commands.
   
-  <img src="imgs/commands.png" width=80% height=80%>
-  
-  
-## Units of Measurement
+## Setup File 
 
-    Length is in millimeters
-    Time is in milliseconds
-    Mass is in grams
-    Viscosity is in grams/(millimeters * milliseconds^2)
+### Units of Measurement
 
+    Length is in millimeters (mm)
+    Time is in milliseconds (ms)
+    Mass is in grams (g)
+
+### Constants set in the simulation setup file before a silulation runs
+
+   Myocyte Force Per Mass strength = 596.0 mm/ms^2
+   
+   BloodPressure = 80.0 millimeters of merculry converted to g/(mm*ms*ms) in the program.
+   
+   Left Atrium mass = 25 g
+   
+   Left Atrium Radius = 17.8 mm
+   
+   Muscle Compresion Stop Fraction = 0.7 This only lets a muscle fiber reduce its length by 30%
+   
+###  
      Unit Constants
         Fiber length 100 micrometers or 0.1 millimeters
         Action Potential Speed .5 meters/sec
@@ -94,7 +100,13 @@ In summary, the project's objectives include developing a cutting-edge model for
         Relaxation Duration is ~200 milliseconds
         Short Axis Circumference is 200 millimeters
         
+### Controls
 
+  - Use the terminal to set your basic parameters (Circle or sphere and number of divisions).
+  The simulation will be paused at the start. Move to the mouse over the simulation window and type the following commands.
+  
+  <img src="imgs/commands.png" width=80% height=80%>
+  
 
 
 ## Changelog
