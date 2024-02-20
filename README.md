@@ -74,47 +74,47 @@ In summary, the project's objectives include developing a cutting-edge model for
 ## Setup File 
 
 ### Units of Measurement
-	Length is in millimeters (mm)
-	Time is in milliseconds (ms)
-	Mass is in grams (g)
+   Length is in millimeters (mm)  
+   Time is in milliseconds (ms)  
+   Mass is in grams (g)  
    
 ### New Run or Previous Run
-   You can start a new run using the nodes and muscles files, or you can continue a previous run.
-   NodesMusclesFileOrPreviousRunsFile = 0, run from the selected nodes and muscles file
-   NodesMusclesFileOrPreviousRunsFile = 1, run from a previous run file
+   	You can start a new run using the nodes and muscles files, or you can continue a previous run.
+   	NodesMusclesFileOrPreviousRunsFile = 0, run from the selected nodes and muscles file
+   	NodesMusclesFileOrPreviousRunsFile = 1, run from a previous run file
    
-   If you selected 0, then you must set 
-   InputFileName = ***;
-   to the name of the nodes and muscles file you want to run from the list below. 
-   {Line11, Circle24, CSphere340, CSphere5680, IdealLeftAtrium13.0KNotTriangle, LeftAtriumRealRemovedAppendage}
+   	If you selected 0, then you must set 
+   	InputFileName = ***;
+   	to the name of the nodes and muscles file you want to run from the list below. 
+   	{Line11, Circle24, CSphere340, CSphere5680, IdealLeftAtrium13.0KNotTriangle, LeftAtriumRealRemovedAppendage}
    
-   If you selected 1, then you must set 
-   PreviousRunFileName = ***;
-   to the name of a previous run file you saved in the PreviousRunsFile folder. The three previous run files listed below
-   are alredy placed in this folder to use as demos. 
-   {PVFlutterDemo, MicroReentryDemo, RoofFlutterDemo}
+   	If you selected 1, then you must set 
+   	PreviousRunFileName = ***;
+   	to the name of a previous run file you saved in the PreviousRunsFile folder. The three previous run files listed below
+   	are alredy placed in this folder to use as demos. 
+   	{PVFlutterDemo, MicroReentryDemo, RoofFlutterDemo}
    
 ### Nodes and Muscle View Size, and colors
-   You can set the size of the nodes and muscles with the
-   LineWidth = ***;
-   NodeRadiusAdjustment = ***;
+   	You can set the size of the nodes and muscles with the
+   	LineWidth = ***;
+   	NodeRadiusAdjustment = ***;
    
-   Colors to help distinguish between simulation events can all be customized at the end of the setup file. 
+   	Colors to help distinguish between simulation events can all be customized at the end of the setup file. 
    
-   Note: This only affects the viewing of the simulation; no actual functionality is changed with these parameters.
+   	Note: This only affects the viewing of the simulation; no actual functionality is changed with these parameters.
 
 ### Simulation Constants
 
-   Myocyte Force Per Mass strength = 596.0 mm/ms^2
-   BloodPressure = 80.0; millimeters of merculry converted to g/(mm*ms*ms) in the program.
-   MassOfAtria = 25; g
-   RadiusOfAtria = 17.8; mm
-   BaseMuscleRelaxedStrength = 2.0; This is just a force that helps the model keep its shape.
-   BaseMuscleCompresionStopFraction = 0.7 This only lets a muscle fiber reduce its length by 30%
-   BeatPeriod = 1000.0; (ms)
-   MaxNumberOfperiodicEctopicEvents = 50; This just sets an upper limit to the number ectopic beats a simulation can have.
-   Note: ectopic beats are extra pulse node that the user sets in an active simulation. Ectopic triggers are single events
-   stimulated by mouse clicks.
+   	Myocyte Force Per Mass strength = 596.0 mm/ms^2
+   	BloodPressure = 80.0; millimeters of merculry converted to g/(mm*ms*ms) in the program.
+   	MassOfAtria = 25; g
+   	RadiusOfAtria = 17.8; mm
+   	BaseMuscleRelaxedStrength = 2.0; This is just a force that helps the model keep its shape.
+   	BaseMuscleCompresionStopFraction = 0.7 This only lets a muscle fiber reduce its length by 30%
+   	BeatPeriod = 1000.0; (ms)
+   	MaxNumberOfperiodicEctopicEvents = 50; This just sets an upper limit to the number ectopic beats a simulation can have.
+   	Note: ectopic beats are extra pulse node that the user sets in an active simulation. Ectopic triggers are single events
+   	stimulated by mouse clicks.
    
    The above are typical values and are all changable in the setup file. These values are read in at the start of a simulation. 
    They are not changable once the simulation starts. 
