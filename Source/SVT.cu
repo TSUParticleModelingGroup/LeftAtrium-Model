@@ -696,8 +696,17 @@ void terminalPrint()
 	printf("\033[0m"); // back to white.
 	
 	printf("\n");
-	if(Pause == 1) printf("\n The simulation is paused.");
-	else printf("\n The simulation is running.");
+	printf("\033[0;34m");
+	if(Pause == 1) 
+	{
+		printf("\033[0;31m");
+		printf(BOLD_ON "\n The simulation is paused." BOLD_OFF);
+	}
+	else 
+	{
+		printf("\033[0;32m");
+		printf(BOLD_ON "\n The simulation is running." BOLD_OFF);
+	}
 	printf("\n Time = %7.2f milliseconds", RunTime);
 	printf("\n You are in %s view", ViewName);
 	
