@@ -37,7 +37,7 @@ Heart disease and strokes are the leading causes of death worldwide [1,2].
 Supraventricular Tachycardia (SVT) is a significant contributing factor to strokes, heart
 failure, and, in some cases, acute myocardial infarction [3-5]. Therefore, it is imperative
 that, in our pursuit of building healthier lives free of cardiovascular diseases and strokes,
-we focus on reducing the occurrence of SVT.
+we focus on reducing the occurrence of SVT.  
 SVT encompasses all cardiac arrhythmias in which the underlying mechanism
 sustaining the abnormal heartbeat originates above the ventricles. This abnormal
 heartbeat can disrupt the natural synchronization between the atria and the ventricles,
@@ -46,23 +46,20 @@ finger-like appendage of the left atrium (LA). Consequently, this allows for the
 of certain types of lethal blood clots known as mural thrombi, which can become dislodged
 and travel to the brain or coronary arteries, resulting in a stroke or heart attack [6]. It is
 this mechanism that leads individuals with atrial fibrillation (AF) to experience a five-fold
-increased risk of stroke [7].
+increased risk of stroke [7].  
 In a normally functioning heart, the sinus node serves as the pacemaker, consistently
 producing an electrical impulse to dictate the heart’s rhythm and rate. This electrical
-
 impulse initiates a chain reaction that propagates throughout the heart, generating a life-
 sustaining heartbeat. Ectopic electrical impulses can lead to chain reactions occurring at
-
 the wrong place and time, disrupting the normal sinus rhythm. This disruption may cause
 the atria to flutter, beat out of sync with the ventricles, or present a myriad of other
-undesirable outcomes [8].
-
+undesirable outcomes [8].  
 In many cases, SVT can be successfully controlled with medication and lifestyle
 changes. However, some of these drugs are challenging for patients to tolerate, and
 certain medications with the most established efficacy are known to be hepatotoxic,
 causing deleterious side effects [9]. Hence, catheter ablation, though more invasive than
 medication therapy, has proven to be the most reliably efficacious and safest method
-physicians have for treating patients with recurring SVT [10-13].
+physicians have for treating patients with recurring SVT [10-13].  
 Radiofrequency (RF) catheter ablation and three-dimensional electro-anatomical
 mapping techniques have seen dramatic improvement over the last 10 years, enabling
 doctors to perform procedures on beating hearts that were, until recently, thought
@@ -70,7 +67,7 @@ impossible [14,15]. However, much is still not understood about what causes hear
 arrhythmias and how to use RF catheter ablation to treat them [16]. What would assist
 doctors, researchers, and medical students is a way to rapidly and inexpensively test out
 ideas and observe outcomes. We have created an N-body computer model of the LA to
-do just this.
+do just this.  
 The LA was chosen because it is the site where most complex arrhythmias arise [17-
 20]. The model captures both electrical and mechanical activity. Users can adjust the
 model down to the individual muscle level and introduce ectopic events. Note: In this text
