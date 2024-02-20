@@ -4,7 +4,7 @@
 <img src="imgs/LAFront.jpeg" width=30% height=30% class='center'></img>
 <img src="imgs/LABack.jpeg" width=30% height=30% class='center'></img>
 <img src="imgs/LAThroughMV.jpeg" width=30% height=30% class='center'></img>
-### Pulmonary vein Flutter ---- Roof Flutter ---- Micro-reentry
+### Flutter Between Pulmonary Veins ---- Roof Flutter ---- Micro-reentry
 <img src="imgs/FlutterPV.jpeg" width=30% height=30% class='center'></img>
 <img src="imgs/RoofFlutter.jpeg" width=30% height=30% class='center'></img>
 <img src="imgs/Micro.jpeg" width=30% height=30% class='center'></img>
