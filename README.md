@@ -47,17 +47,17 @@ The LA was chosen for modeling due to its role in complex arrhythmias [17-20]. O
 
 ## YouTube Videos
 
-Media Video 1: https://youtu.be/1LfkSLHCras
-Media Video 2: https://youtu.be/uiBhadBPQuk
-Media Video 3: https://youtu.be/9or9AD9T4vQ
-Media Video 4: https://youtu.be/mIRA23GSZKs
-Media Video 5: https://youtu.be/9KuRWVdBDR0
-Media Video 6: https://youtu.be/SaPKsIT6DkM
-Media Video 7: https://youtu.be/9QzJhKyeVGc
-Media Video 8: https://youtu.be/E1mbqbofrDo
-Media Video 9: https://youtu.be/qZ7-WLGbyLQ
-Media Video 10: https://youtu.be/LkOr0d9mS2c
-Media Video 11: https://youtu.be/G_ZcHeLRRjc
+Media Video 1: https://youtu.be/1LfkSLHCras  
+Media Video 2: https://youtu.be/uiBhadBPQuk  
+Media Video 3: https://youtu.be/9or9AD9T4vQ  
+Media Video 4: https://youtu.be/mIRA23GSZKs  
+Media Video 5: https://youtu.be/9KuRWVdBDR0  
+Media Video 6: https://youtu.be/SaPKsIT6DkM  
+Media Video 7: https://youtu.be/9QzJhKyeVGc  
+Media Video 8: https://youtu.be/E1mbqbofrDo  
+Media Video 9: https://youtu.be/qZ7-WLGbyLQ  
+Media Video 10: https://youtu.be/LkOr0d9mS2c  
+Media Video 11: https://youtu.be/G_ZcHeLRRjc  
 
 
 ## Installation
