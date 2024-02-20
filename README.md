@@ -1,4 +1,4 @@
-# Simulating Left Atrial Arrhythmias with an Interactive N-body Model
+#Simulating Left Atrial Arrhythmias with an Interactive N-body Model
 
 ### Front View ---- Back View ---- View Through the Mitral Valve
 <img src="imgs/LAFront.jpeg" width=30% height=30% class='center'></img>
