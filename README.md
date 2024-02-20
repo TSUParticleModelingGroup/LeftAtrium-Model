@@ -1,9 +1,9 @@
-<img src="imgs/leftAtrium.png" width=10% height=10% class='center'></img>
+<img src="imgs/LAFront" width=10% height=10% class='center'></img>
 
-# Supraventricular Tachycardia Study Using a Dynamic Computer Generated Heart
+# Simulating Left Atrial Arrhythmias with an Interactive N-body Modeling
 
 
-This project will allow the user to identify, define, and educate about cardiac ablations and Supraventricular Tachycardia's using an unforeseen dynamical approach to cardiac simulation.
+This project utilizes N-body techniques to create an interactive model of the left atrium. Users can establish conditions in a live simulation to induce common arrhythmias. These arrhythmias can be observed and studied in the model, and subsequently eliminated using simulated ablations. We aim for this model to serve as a training and research tool for electrophysiologists, researchers, and medical students.
 
 ### Table of Contents
 - [Installation](#installation)
