@@ -1,13 +1,13 @@
 # Simulating Left Atrial Arrhythmias with an Interactive N-body Modeling
 
 ### Front View -- Back View -- View Through the Mitral Valve
-<img src="imgs/LAFront.jpeg" width=20% height=20% class='center'></img>
-<img src="imgs/LABack.jpeg" width=20% height=20% class='center'></img>
-<img src="imgs/LAThroughMV.jpeg" width=20% height=20% class='center'></img>
+<img src="imgs/LAFront.jpeg" width=30% height=30% class='center'></img>
+<img src="imgs/LABack.jpeg" width=30% height=30% class='center'></img>
+<img src="imgs/LAThroughMV.jpeg" width=30% height=30% class='center'></img>
 ### Pulmonary vein Flutter -- Roof Flutter -- Micro-reentry
-<img src="imgs/FlutterPV.jpeg" width=20% height=20% class='center'></img>
-<img src="imgs/RoofFlutter.jpeg" width=20% height=20% class='center'></img>
-<img src="imgs/Micro.jpeg" width=20% height=20% class='center'></img>
+<img src="imgs/FlutterPV.jpeg" width=30% height=30% class='center'></img>
+<img src="imgs/RoofFlutter.jpeg" width=30% height=30% class='center'></img>
+<img src="imgs/Micro.jpeg" width=30% height=30% class='center'></img>
 
 
 This project utilizes N-body techniques to create an interactive model of the left atrium. Users can establish conditions in a live simulation to induce common arrhythmias. These arrhythmias can be observed and studied in the model, and subsequently eliminated using simulated ablations. We aim for this model to serve as a training and research tool for electrophysiologists, researchers, and medical students.
