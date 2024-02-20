@@ -149,7 +149,7 @@ Video 11: https://youtu.be/G_ZcHeLRRjc
    	BaseMuscleCompresionStopFraction = 0.7 This only lets a muscle fiber reduce its length by 30%
    	BeatPeriod = 1000.0; (ms)
    	MaxNumberOfperiodicEctopicEvents = 50; This just sets an upper limit to the number ectopic beats a simulation can have.
-   	Note: ectopic beats are extra pulse node that the user sets in an active simulation. Ectopic triggers are single events
+   	Note: ectopic beats are extra pulse nodes that the user sets in an active simulation. Ectopic triggers are single events
    	stimulated by mouse clicks.
    
    	The above are typical values and are all changable in the setup file. These values are read in at the start of a simulation. 
