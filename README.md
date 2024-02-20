@@ -33,49 +33,6 @@ In summary, the project's objectives include developing a cutting-edge model for
 - [Citation](#citation)
 
 ## Background
-Heart disease and strokes are the leading causes of death worldwide [1,2].
-Supraventricular Tachycardia (SVT) is a significant contributing factor to strokes, heart
-failure, and, in some cases, acute myocardial infarction [3-5]. Therefore, it is imperative
-that, in our pursuit of building healthier lives free of cardiovascular diseases and strokes,
-we focus on reducing the occurrence of SVT.  
-SVT encompasses all cardiac arrhythmias in which the underlying mechanism
-sustaining the abnormal heartbeat originates above the ventricles. This abnormal
-heartbeat can disrupt the natural synchronization between the atria and the ventricles,
-disturbing the laminar blood flow through the heart and causing it to stagnate in the small
-finger-like appendage of the left atrium (LA). Consequently, this allows for the formation
-of certain types of lethal blood clots known as mural thrombi, which can become dislodged
-and travel to the brain or coronary arteries, resulting in a stroke or heart attack [6]. It is
-this mechanism that leads individuals with atrial fibrillation (AF) to experience a five-fold
-increased risk of stroke [7].  
-In a normally functioning heart, the sinus node serves as the pacemaker, consistently
-producing an electrical impulse to dictate the heart’s rhythm and rate. This electrical
-impulse initiates a chain reaction that propagates throughout the heart, generating a life-
-sustaining heartbeat. Ectopic electrical impulses can lead to chain reactions occurring at
-the wrong place and time, disrupting the normal sinus rhythm. This disruption may cause
-the atria to flutter, beat out of sync with the ventricles, or present a myriad of other
-undesirable outcomes [8].  
-In many cases, SVT can be successfully controlled with medication and lifestyle
-changes. However, some of these drugs are challenging for patients to tolerate, and
-certain medications with the most established efficacy are known to be hepatotoxic,
-causing deleterious side effects [9]. Hence, catheter ablation, though more invasive than
-medication therapy, has proven to be the most reliably efficacious and safest method
-physicians have for treating patients with recurring SVT [10-13].  
-Radiofrequency (RF) catheter ablation and three-dimensional electro-anatomical
-mapping techniques have seen dramatic improvement over the last 10 years, enabling
-doctors to perform procedures on beating hearts that were, until recently, thought
-impossible [14,15]. However, much is still not understood about what causes heart
-arrhythmias and how to use RF catheter ablation to treat them [16]. What would assist
-doctors, researchers, and medical students is a way to rapidly and inexpensively test out
-ideas and observe outcomes. We have created an N-body computer model of the LA to
-do just this.  
-The LA was chosen because it is the site where most complex arrhythmias arise [17-
-20]. The model captures both electrical and mechanical activity. Users can adjust the
-model down to the individual muscle level and introduce ectopic events. Note: In this text
-when we refer to a muscle, we mean a group of cardiomyocytes. These tools can be used
-to induce arrhythmias in the LA that can be eliminated through simulated ablations. All of
-these actions can be performed interactively in a running simulation, enabling users to
-set up conditions in the simulated LA, test ablation strategies, and observe the outcomes.           
-
 Heart disease and strokes rank among the leading causes of death globally [1,2]. Supraventricular Tachycardia (SVT) significantly contributes to strokes, heart failure, and, in some cases, acute myocardial infarction [3-5]. Therefore, reducing SVT occurrence is crucial in our efforts to promote healthier lives free of cardiovascular diseases and strokes.
 
 SVT encompasses all cardiac arrhythmias originating above the ventricles. This abnormal heartbeat can disrupt the natural synchronization between the atria and ventricles, causing blood to stagnate in the left atrium (LA) and forming potentially lethal blood clots known as mural thrombi [6]. These clots can dislodge and travel to the brain or coronary arteries, leading to a stroke or heart attack, as seen in individuals with atrial fibrillation (AF) who face a five-fold increased stroke risk [7].
@@ -86,10 +43,7 @@ While SVT can often be controlled with medication and lifestyle changes, some dr
 
 Advancements in radiofrequency (RF) catheter ablation and electro-anatomical mapping have enabled doctors to perform procedures on beating hearts that were once thought impossible [14,15]. However, much remains unknown about the causes of heart arrhythmias and how to treat them using RF catheter ablation [16]. A computer model of the LA, such as the one we have developed, can assist doctors, researchers, and medical students in rapidly and inexpensively testing ideas and observing outcomes.
 
-The LA was chosen for modeling due to its role in complex arrhythmias [17-20]. Our model simulates both electrical and mechanical activity, allowing users to adjust parameters at the muscle level and introduce ectopic events. These tools enable users to induce arrhythmias in the LA that can be eliminated through simulated ablations, all in an interactive simulation setting. This capability allows users to set up conditions, test ablation strategies, and observe outcomes in real-time.
-
-
-           
+The LA was chosen for modeling due to its role in complex arrhythmias [17-20]. Our model simulates both electrical and mechanical activity, allowing users to adjust parameters at the muscle level and introduce ectopic events. These tools enable users to induce arrhythmias in the LA that can be eliminated through simulated ablations, all in an interactive simulation setting.
 
 ## Installation
 ### Hardware Requirements:
