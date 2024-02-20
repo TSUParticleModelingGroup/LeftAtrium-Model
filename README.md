@@ -23,6 +23,7 @@ In summary, the project's objectives include developing a cutting-edge model for
 ### Table of Contents
 - [Project Aims](#project-aims)
 - [Background](#background)
+- [Videos](#videos)
 - [Installation](#installation)
   - [Hardware Requirements](#hardware-requirements)
   - [Software Requirements](#software-requirements)
@@ -49,7 +50,8 @@ Advancements in radiofrequency (RF) catheter ablation and electro-anatomical map
 
 The LA was chosen for modeling due to its role in complex arrhythmias [17-20]. Our model simulates both electrical and mechanical activity, allowing users to adjust parameters at the muscle level and introduce ectopic events. These tools enable users to induce arrhythmias in the LA that can be eliminated through simulated ablations, all in an interactive simulation setting.
 
-## YouTube Videos
+<a id="videos"></a>
+## Videos
 
 Media Video 1: https://youtu.be/1LfkSLHCras  
 Media Video 2: https://youtu.be/uiBhadBPQuk  
