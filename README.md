@@ -31,8 +31,10 @@ In summary, the project's objectives include developing a cutting-edge model for
 - [Changelog](#changelog)
 - [Contributing](#contributing)
 - [Citation](#citation)
+- [Background](#background)
 
-## Background
+<a id="background"></a>
+## Background 
 Heart disease and strokes rank among the leading causes of death globally [1,2]. Supraventricular Tachycardia (SVT) significantly contributes to strokes, heart failure, and, in some cases, acute myocardial infarction [3-5]. Therefore, reducing SVT occurrence is crucial in our efforts to promote healthier lives free of cardiovascular diseases and strokes.
 
 SVT encompasses all cardiac arrhythmias originating above the ventricles. This abnormal heartbeat can disrupt the natural synchronization between the atria and ventricles, causing blood to stagnate in the left atrium (LA) and forming potentially lethal blood clots known as mural thrombi [6]. These clots can dislodge and travel to the brain or coronary arteries, leading to a stroke or heart attack, as seen in individuals with atrial fibrillation (AF) who face a five-fold increased stroke risk [7].
