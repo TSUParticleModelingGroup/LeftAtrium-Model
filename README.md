@@ -1,4 +1,9 @@
 <img src="imgs/LAFront.jpeg" width=10% height=10% class='center'></img>
+<img src="imgs/LABack.jpeg" width=10% height=10% class='center'></img>
+<img src="imgs/ThroughMV.jpeg" width=10% height=10% class='center'></img>
+<img src="imgs/FlutterPV.jpeg" width=10% height=10% class='center'></img>
+<img src="imgs/RuffFlutter.jpeg" width=10% height=10% class='center'></img>
+<img src="imgs/Micro.jpeg" width=10% height=10% class='center'></img>
 
 # Simulating Left Atrial Arrhythmias with an Interactive N-body Modeling
 
