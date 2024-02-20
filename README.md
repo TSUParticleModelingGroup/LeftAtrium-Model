@@ -9,8 +9,16 @@
 <img src="imgs/RoofFlutter.jpeg" width=30% height=30% class='center'></img>
 <img src="imgs/Micro.jpeg" width=30% height=30% class='center'></img>
 
+### Project Aims
 
-This project utilizes N-body techniques to create an interactive model of the left atrium. Users can establish conditions in a live simulation to induce common arrhythmias. These arrhythmias can be observed and studied in the model, and subsequently eliminated using simulated ablations. We aim for this model to serve as a training and research tool for electrophysiologists, researchers, and medical students.
+Our project has several key objectives. Firstly, we aim to utilize N-body techniques to develop an interactive model of the left atrium. This model will allow users to manipulate various parameters in real-time, facilitating the induction and observation of common arrhythmias.
+
+Secondly, we seek to create a training and study tool for electrophysiologists, researchers, and medical students. Through accurately simulating left atrial arrhythmias and their treatment using simulated ablations, the model will serve as a valuable educational resource, enhancing understanding and skill development in this critical medical field.
+
+Additionally, the project aims to advance research in electrophysiology by providing a platform for exploring novel treatment strategies and studying arrhythmia mechanisms. This could lead to new insights and innovations in the field, ultimately benefiting patients with cardiac arrhythmias.
+
+In summary, the project's objectives include developing a cutting-edge model for arrhythmia simulation, providing an advanced training tool for medical professionals, and advancing research in electrophysiology.
+
 
 ### Table of Contents
 - [Installation](#installation)
