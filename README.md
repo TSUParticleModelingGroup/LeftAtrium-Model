@@ -1,4 +1,4 @@
-#Simulating Left Atrial Arrhythmias with an Interactive N-body Model
+# Simulating Left Atrial Arrhythmias with an Interactive N-body Model
 
 ### Front View ---- Back View ---- View Through the Mitral Valve
 <img src="imgs/LAFront.jpeg" width=30% height=30% class='center'></img>
@@ -44,6 +44,21 @@ While SVT can often be controlled with medication and lifestyle changes, some dr
 Advancements in radiofrequency (RF) catheter ablation and electro-anatomical mapping have enabled doctors to perform procedures on beating hearts that were once thought impossible [14,15]. However, much remains unknown about the causes of heart arrhythmias and how to treat them using RF catheter ablation [16]. A computer model of the LA, such as the one we have developed, can assist doctors, researchers, and medical students in rapidly and inexpensively testing ideas and observing outcomes.
 
 The LA was chosen for modeling due to its role in complex arrhythmias [17-20]. Our model simulates both electrical and mechanical activity, allowing users to adjust parameters at the muscle level and introduce ectopic events. These tools enable users to induce arrhythmias in the LA that can be eliminated through simulated ablations, all in an interactive simulation setting.
+
+## YouTube Videos
+
+Media Video 1: https://youtu.be/1LfkSLHCras
+Media Video 2: https://youtu.be/uiBhadBPQuk
+Media Video 3: https://youtu.be/9or9AD9T4vQ
+Media Video 4: https://youtu.be/mIRA23GSZKs
+Media Video 5: https://youtu.be/9KuRWVdBDR0
+Media Video 6: https://youtu.be/SaPKsIT6DkM
+Media Video 7: https://youtu.be/9QzJhKyeVGc
+Media Video 8: https://youtu.be/E1mbqbofrDo
+Media Video 9: https://youtu.be/qZ7-WLGbyLQ
+Media Video 10: https://youtu.be/LkOr0d9mS2c
+Media Video 11: https://youtu.be/G_ZcHeLRRjc
+
 
 ## Installation
 ### Hardware Requirements:
