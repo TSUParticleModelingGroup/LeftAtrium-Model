@@ -11,7 +11,7 @@
 
 <a id="project-aims"></a>
 ## Project Aims
-Our project has several key objectives. Firstly, we aim to utilize N-body techniques to develop an interactive model of the left atrium. This model will allow users to manipulate various parameters in real time, facilitating the induction and observation of common arrhythmias.
+Our project has several key objectives. Firstly, we aim to utilize N-body techniques to develop an interactive model of the left atrium. This model will allow users to manipulate various parameters in real-time, facilitating the induction and observation of common arrhythmias.
 
 Secondly, we seek to create a training and study tool for electrophysiologists, researchers, and medical students. By accurately simulating left atrial arrhythmias and their treatment using simulated ablations, the model will serve as a valuable educational resource, enhancing understanding and skill development in this critical medical field.
 
