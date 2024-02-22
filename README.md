@@ -18,7 +18,7 @@
 - [Simulation Setup File](#simulation-setup-file)
 - [Simulation Runtime Controls](#simulation-runtime-controls)
 - [Changelog](#changelog)
-- [License](#license]
+- [License](#license)
 - [Contributing Authors](#contributing-authors)
 - [Funding Sources](#funding-sources)
 - [Acknowledgements](#acknowledgements)
