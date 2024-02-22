@@ -1,4 +1,4 @@
-# Left Atriam Model
+# Interavtive Left Atrium Model
 
 ### Table of Contents
 - [Selected Pics](#selected-pics)
