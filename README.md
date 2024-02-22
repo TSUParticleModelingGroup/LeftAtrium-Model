@@ -1,4 +1,4 @@
-# Simulating Left Atrial Arrhythmias with an Interactive N-body Model
+# Left Atriam Model
 
 ### Table of Contents
 - [Selected Pics](#selected-pics)
