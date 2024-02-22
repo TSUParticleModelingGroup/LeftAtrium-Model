@@ -16,6 +16,7 @@
 - [Acknowledgements](#acknowledgements)
 - [References](#references)
 
+<a id="selected-pics"></a>
 ## Selected Pics
 ### Front View ---- Back View ---- View Through the Mitral Valve
 <img src="ReadMeImages/LAFront.jpeg" width=30% height=30% class='center'></img>
