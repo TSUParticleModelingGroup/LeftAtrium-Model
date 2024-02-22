@@ -1,15 +1,7 @@
 # Simulating Left Atrial Arrhythmias with an Interactive N-body Model
 
-### Front View ---- Back View ---- View Through the Mitral Valve
-<img src="ReadMeImages/LAFront.jpeg" width=30% height=30% class='center'></img>
-<img src="ReadMeImages/LABack.jpeg" width=30% height=30% class='center'></img>
-<img src="ReadMeImages/LAThroughMV.jpeg" width=30% height=30% class='center'></img>
-### Flutter Between Pulmonary Veins ---- Roof Flutter ---- Micro-reentry
-<img src="ReadMeImages/FlutterPV.jpeg" width=30% height=30% class='center'></img>
-<img src="ReadMeImages/RoofFlutter.jpeg" width=30% height=30% class='center'></img>
-<img src="ReadMeImages/Micro.jpeg" width=30% height=30% class='center'></img>
-
 ### Table of Contents
+- [Selected Pics](#selected-pics)
 - [Project Aims](#project-aims)
 - [Background](#background)
 - [Videos](#videos)
@@ -23,6 +15,16 @@
 - [Funding Sources](#funding-sources)
 - [Acknowledgements](#acknowledgements)
 - [References](#references)
+
+## Selected Pics
+### Front View ---- Back View ---- View Through the Mitral Valve
+<img src="ReadMeImages/LAFront.jpeg" width=30% height=30% class='center'></img>
+<img src="ReadMeImages/LABack.jpeg" width=30% height=30% class='center'></img>
+<img src="ReadMeImages/LAThroughMV.jpeg" width=30% height=30% class='center'></img>
+### Flutter Between Pulmonary Veins ---- Roof Flutter ---- Micro-reentry
+<img src="ReadMeImages/FlutterPV.jpeg" width=30% height=30% class='center'></img>
+<img src="ReadMeImages/RoofFlutter.jpeg" width=30% height=30% class='center'></img>
+<img src="ReadMeImages/Micro.jpeg" width=30% height=30% class='center'></img>
 
 <a id="project-aims"></a>
 ## Project Aims
