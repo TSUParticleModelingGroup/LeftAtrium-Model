@@ -14,15 +14,15 @@
 - [Background](#background)
 - [Videos](#videos)
 - [Installation](#installation)
-  - [Hardware Requirements](#hardware-requirements)
-  - [Software Requirements](#software-requirements)
 - [Building And Running](#building-and-running)
-  - [Running](#running)
-- [Controls](#controls)
-- [Units of Measurement](#UnitsofMeasurement)
+- [Simulation Setup File](#simulation-setup-file)
+- [Simulation Runtime Controls](#simulation-runtime-controls)
 - [Changelog](#changelog)
-- [Contributing](#contributing)
-- [Citation](#citation)
+- [License](#license]
+- [Contributing Authors](#contributing-authors)
+- [Funding Sources](#funding-sources)
+- [Acknowledgements](#acknowledgements)
+- [References](#references)
 
 <a id="project-aims"></a>
 ## Project Aims
@@ -63,7 +63,7 @@ Video 9: https://youtu.be/qZ7-WLGbyLQ
 Video 10: https://youtu.be/LkOr0d9mS2c  
 Video 11: https://youtu.be/G_ZcHeLRRjc  
 
-
+<a id="installation"></a>
 ## Installation
 ### Hardware Requirements:
 - This simulation requires a CUDA-enabled GPU from Nvidia. Click <a href="https://developer.nvidia.com/cuda-gpus">here </a> for a list of GPUs.
@@ -91,7 +91,8 @@ Video 11: https://youtu.be/G_ZcHeLRRjc
   Install Mesa Utils:
 
     sudo apt install mesa-utils
-    
+
+<a id="building-and-running"></a>    
 ## Building and Running
 
 ### Building (Note: this must be done after every code change)
@@ -104,8 +105,9 @@ Video 11: https://youtu.be/G_ZcHeLRRjc
   After compiling, run the simulation:
 
     ./run
-  
-## Setup File 
+
+<a id="simulation-setup-file"></a>    
+## Simulation Setup File 
 
 ### Units of Measurement
    	Length is in millimeters (mm)
@@ -164,19 +166,23 @@ Video 11: https://youtu.be/G_ZcHeLRRjc
    	PrintRate = 100.0; How often the program prints new information to the terminal screen. 
    	DrawRate = 1000; How often the program draws a new simulation picture. 
    	Dt = 0.001; How many Leap-Frog iterations are done for each ms of simulation time.
-   
-## Controls
+
+<a id="simulation-runtime-controls"></a>
+## Simulation Runtime Controls
   
   <img src="imgs/commands.png" width=80% height=80%>
 
+<a id="changelog"></a>
 ## Changelog
 
 Refer to the changelog for details.
 
+<a id="license"></a>
 ## License
   - This code is protected by the MIT License and is free to use for personal and academic use.
 
-## Contributing
+<a id="contributing-authors"></a>
+## Contributing Authors
   - Bryant Wyatt (PI)
   - Gavin McIntosh
   - Avery Campbell
@@ -184,17 +190,19 @@ Refer to the changelog for details.
   - Leah Rogers
   - Derek Hopkins
   - Brandon Wyatt
-  
+
+<a id="funding-sources"></a>  
 ## Funding Sources
 This research was supported by the NVIDIA cooperation’s Applied Research Accelerator
 Program. Student support was provided by Tarleton State University’s Presidential
 Excellence in Research Scholars and the Bill and Winnie Wyatt Foundation.
 
-## Acknowledgments
+<a id="acknowledgements"></a>
+## Acknowledgements
 We would like to thank Tarleton State University’s Mathematics Department for use of
 their High-Performance Computing lab for the duration of this project.
 
-
+<a id="references"></a>
 ## References
   
 	[1] World Health Organization. (12/9/2020). The top 10 causes of death. World Health Organization. https://www.who.int/news-room/fact-sheets/detail/the top-10-causes-of-death
