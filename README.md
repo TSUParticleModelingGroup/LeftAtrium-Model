@@ -13,7 +13,7 @@
 ## Project Aims
 Our project has several key objectives. Firstly, we aim to utilize N-body techniques to develop an interactive model of the left atrium. This model will allow users to manipulate various parameters in real-time, facilitating the induction and observation of common arrhythmias.
 
-Secondly, we seek to create a training and study tool for electrophysiologists, researchers, and medical students. Through accurately simulating left atrial arrhythmias and their treatment using simulated ablations, the model will serve as a valuable educational resource, enhancing understanding and skill development in this critical medical field.
+Secondly, we seek to create a training and study tool for electrophysiologists, researchers, and medical students. By accurately simulating left atrial arrhythmias and their treatment using simulated ablations, the model will serve as a valuable educational resource, enhancing understanding and skill development in this critical medical field.
 
 Additionally, the project aims to advance research in electrophysiology by providing a platform for exploring novel treatment strategies and studying arrhythmia mechanisms. This could lead to new insights and innovations in the field, ultimately benefiting patients with cardiac arrhythmias.
 
@@ -127,7 +127,7 @@ Video 11: https://youtu.be/G_ZcHeLRRjc
    	If you selected 1, then you must set 
    	PreviousRunFileName = ***;
    	to the name of a previous run file you saved in the PreviousRunsFile folder. The three previous run files listed below
-   	are alredy placed in this folder to use as demos. 
+   	are already placed in this folder to use as demos. 
    	{PVFlutterDemo, MicroReentryDemo, RoofFlutterDemo}
    
 ### Nodes and Muscle View Size, and colors
@@ -142,25 +142,25 @@ Video 11: https://youtu.be/G_ZcHeLRRjc
 ### Simulation Constants
 
    	Myocyte Force Per Mass strength = 596.0 mm/ms^2
-   	BloodPressure = 80.0; millimeters of merculry converted to g/(mm*ms*ms) in the program.
+   	BloodPressure = 80.0; millimeters of mercury converted to g/(mm*ms*ms) in the program.
    	MassOfAtria = 25; g
    	RadiusOfAtria = 17.8; mm
    	BaseMuscleRelaxedStrength = 2.0; This is just a force that helps the model keep its shape.
    	BaseMuscleCompresionStopFraction = 0.7 This only lets a muscle fiber reduce its length by 30%
    	BeatPeriod = 1000.0; (ms)
-   	MaxNumberOfperiodicEctopicEvents = 50; This just sets an upper limit to the number ectopic beats a simulation can have.
+   	MaxNumberOfperiodicEctopicEvents = 50; This just sets an upper limit to the number of ectopic beats a simulation can have.
    	Note: ectopic beats are extra pulse nodes that the user sets in an active simulation. Ectopic triggers are single events
    	stimulated by mouse clicks.
    
-   	The above are typical values and are all changable in the setup file. These values are read in at the start of a simulation. 
-   	They are not changable once the simulation starts. 
+   	The above are typical values and are all changeable in the setup file. These values are read in at the start of a simulation. 
+   	They are not changeable once the simulation starts. 
    
 ### Simulation Variables
    	BaseMuscleContractionDuration = 200.0; (ms)
    	BaseMuscleRechargeDuration = 200.0; (ms)
    	BaseMuscleConductionVelocity = 0.5; (mm/ms)
    
-   	The above are typical values read in from the setup file at the start of a simulation. These values are all changable in an active simulation.
+   	The above are typical values read in from the setup file at the start of a simulation. These values are all changeable in an active simulation.
    
 ### Timing constants
    	PrintRate = 100.0; How often the program prints new information to the terminal screen. 
