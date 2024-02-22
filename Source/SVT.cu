@@ -691,26 +691,34 @@ void n_body(float dt)
 void terminalPrint()
 {
 	system("clear");
-	//printf("\033[0;34m"); // print in blue.
+	//printf("\033[0;34m"); // blue.
+	//printf("\033[0;36m"); // cyan
 	//printf("\033[0;33m"); // yellow
+	//printf("\033[0;31m"); // red
+	//printf("\033[0;32m"); // green
 	printf("\033[0m"); // back to white.
 	
 	printf("\n");
-	printf("\033[0;34m");
+	printf("\n **************************** Simulation Stats ****************************");
 	if(Pause == 1) 
 	{
+		printf("\n The simulation is");
 		printf("\033[0;31m");
-		printf(BOLD_ON "\n The simulation is paused." BOLD_OFF);
+		printf(BOLD_ON " paused." BOLD_OFF);
 	}
 	else 
 	{
+		printf("\n The simulation is");
 		printf("\033[0;32m");
-		printf(BOLD_ON "\n The simulation is running." BOLD_OFF);
+		printf(BOLD_ON " running." BOLD_OFF);
 	}
 	printf("\n Time = %7.2f milliseconds", RunTime);
-	printf("\n You are in %s view", ViewName);
+	printf("\n You are in");
+	printf("\033[0;36m");
+	printf(BOLD_ON " %s", ViewName);
+	printf("\033[0m" BOLD_OFF);
+	printf(" view");
 	
-	printf("\n");
 	if(AblateOnOff == 1) printf("\n You are in ablation mode.");
 	else if(EctopicBeatOnOff == 1) printf("\n You are in create ectopic beat mode.");
 	else if(AdjustMuscleOnOff == 1) 
@@ -724,8 +732,7 @@ void terminalPrint()
 	else if(EctopicSingleOnOff == 1) printf("\n You are in one off ectopic event mode.");
 	else printf("\n There are no mouse functions currently set.");
 	
-	printf("\n");
-	printf("\n Driving beat: Node %d Rate %f milliseconds.", EctopicEvents[0].node, EctopicEvents[0].period);
+	printf("\n Driving beat node is %d \n The beat rate %f milliseconds.", EctopicEvents[0].node, EctopicEvents[0].period);
 	for(int i = 1; i < MaxNumberOfperiodicEctopicEvents; i++)
 	{
 		if(EctopicEvents[i].node != -1)
@@ -769,21 +776,52 @@ void terminalPrint()
 	printf("\n e/E: In/Out Zoom");
 	printf("\n");
 	printf("\n Set Mouse actions");
+	
 	printf("\n !: Ablate            - ");
-	if (AblateOnOff == 1) printf(BOLD_ON "On" BOLD_OFF); else printf(BOLD_ON "Off" BOLD_OFF);
+	if (AblateOnOff == 1) 
+	{
+		printf("\033[0;36m");
+		printf(BOLD_ON "On" BOLD_OFF); 
+	}
+	else printf(BOLD_ON "Off" BOLD_OFF);
+	
 	printf("\n @: Ectoic Beat       - ");
-	if (EctopicBeatOnOff == 1) printf(BOLD_ON "On" BOLD_OFF); else printf(BOLD_ON "Off" BOLD_OFF);
+	if (EctopicBeatOnOff == 1) 
+	{
+		printf("\033[0;36m");
+		printf(BOLD_ON "On" BOLD_OFF); 
+	}
+	else printf(BOLD_ON "Off" BOLD_OFF);
+	
 	printf("\n #: Ectopic Trigger   - ");
-	if (EctopicSingleOnOff == 1) printf(BOLD_ON "On" BOLD_OFF); else printf(BOLD_ON "Off" BOLD_OFF);
+	if (EctopicSingleOnOff == 1) 
+	{
+		printf("\033[0;36m");
+		printf(BOLD_ON "On" BOLD_OFF); 
+	}
+	else printf(BOLD_ON "Off" BOLD_OFF);
+	
 	printf("\n $: Muscle Adjustment - ");
-	if (AdjustMuscleOnOff == 1) printf(BOLD_ON "On" BOLD_OFF); else printf(BOLD_ON "Off" BOLD_OFF);
+	if (AdjustMuscleOnOff == 1) 
+	{
+		printf("\033[0;36m");
+		printf(BOLD_ON "On" BOLD_OFF); 
+	}
+	else printf(BOLD_ON "Off" BOLD_OFF);
+	
 	printf("\n ^: Identify Node     - ");
-	if (FindNodeOnOff == 1) printf(BOLD_ON "On" BOLD_OFF); else printf(BOLD_ON "Off" BOLD_OFF);
+	if (FindNodeOnOff == 1) 
+	{
+		printf("\033[0;36m");
+		printf(BOLD_ON "On" BOLD_OFF); 
+	}
+	else printf(BOLD_ON "Off" BOLD_OFF);
+	
 	printf("\n ): Turns all Mouse functions off");
 	printf("\n");
 	printf("\n [/]: (left/right bracket) Increase/Decrease mouse selection area");
 	printf("\n Selection area = %f times the radius of atrium. \n", HitMultiplier);
-	printf("\n");
+	printf("\n ********************************************************************");
 	printf("\n");
 }
 
