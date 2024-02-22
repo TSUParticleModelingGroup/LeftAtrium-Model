@@ -710,9 +710,18 @@ void terminalPrint()
 	
 	if(AdjustMuscleOnOff == 1) 
 	{
-		printf("\n Base muscle contraction multiplier is = %f", BaseMuscleContractionDurationAdjustmentMultiplier);
-		printf("\n Base muscle recharge multiplier is = %f", BaseMuscleRechargeDurationAdjustmentMultiplier);
-		printf("\n Base muscle electrical conduction speed multiplier is = %f", BaseMuscleConductionVelocityAdjustmentMultiplier);
+		printf("\n Base muscle contraction multiplier =");
+		printf("\033[0;36m");
+		printf(" %f", BaseMuscleContractionDurationAdjustmentMultiplier);
+		printf("\033[0m");
+		printf("\n Base muscle recharge multiplier =");
+		printf("\033[0;36m");
+		printf(" %f", BaseMuscleRechargeDurationAdjustmentMultiplier);
+		printf("\033[0m");
+		printf("\n Base muscle electrical conduction speed multiplier =");
+		printf("\033[0;36m");
+		printf(" %f", BaseMuscleConductionVelocityAdjustmentMultiplier);
+		printf("\033[0m");
 	}
 	
 	for(int i = 1; i < MaxNumberOfperiodicEctopicEvents; i++)
@@ -741,12 +750,12 @@ void terminalPrint()
 	if (Pause == 0) 
 	{
 		printf("\033[0;32m");
-		printf(BOLD_ON "Running" BOLD_OFF);
+		printf(BOLD_ON "Simulation Running" BOLD_OFF);
 	} 
 	else 
 	{
 		printf("\033[0;31m");
-		printf(BOLD_ON "Paused" BOLD_OFF);
+		printf(BOLD_ON "Simulation Paused" BOLD_OFF);
 	}
 	printf("\n g: Front/Full           - ");
 	if (DrawFrontHalfFlag == 0) printf(BOLD_ON "Full" BOLD_OFF); else printf(BOLD_ON "Front" BOLD_OFF);
@@ -754,16 +763,16 @@ void terminalPrint()
 	if (DrawNodesFlag == 0) printf(BOLD_ON "Off" BOLD_OFF); else if (DrawNodesFlag == 1) printf(BOLD_ON "Half" BOLD_OFF); else printf(BOLD_ON "Full" BOLD_OFF);
 	printf("\n v: Orthogonal/Frustum   - ");
 	if (ViewFlag == 0) printf(BOLD_ON "Orthogonal" BOLD_OFF); else printf(BOLD_ON "Frustrum" BOLD_OFF);
-	printf("\n m: Movie On/Off         - ");
+	printf("\n m: Video On/Off         - ");
 	if (MovieFlag == 0) 
 	{
 		printf("\033[0;31m");
-		printf(BOLD_ON "Movie not recording" BOLD_OFF); 
+		printf(BOLD_ON "Video Recording Off" BOLD_OFF); 
 	}
 	else 
 	{
 		printf("\033[0;32m");
-		printf(BOLD_ON "Movie recording in progress" BOLD_OFF);
+		printf(BOLD_ON "Video Recording On" BOLD_OFF);
 	}
 	printf("\n");
 	printf("\n Views" );
