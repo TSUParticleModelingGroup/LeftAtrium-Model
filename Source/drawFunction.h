@@ -84,7 +84,6 @@ void ReferenceView()
 	AngleOfSimulation.y += angle;
 }
 
-
 void PAView()
 {  
 	// The heart does not set in the chest at a straight on angle.
@@ -230,7 +229,7 @@ void drawPicture()
 			{
 				if(DrawFrontHalfFlag == 1)
 				{
-					if(CenterOfSimulation.z - 0.001 < Node[i].position.z)  // Only drawing the nodes in the front. I need to learn openGl to do this better Mogy ????????
+					if(CenterOfSimulation.z - 0.001 < Node[i].position.z)  // Only drawing the nodes in the front.
 					{
 						glColor3d(Node[i].color.x, Node[i].color.y, Node[i].color.z);
 						if(Node[i].drawFlag == 1)

@@ -978,7 +978,7 @@ void setup()
 	ScrollSpeed = 1.0;
 	
 	centerObject();
-	setView(5);
+	setView(2);
 	
 	cudaMemcpy( MuscleGPU, Muscle, NumberOfMuscles*sizeof(muscleAtributesStructure), cudaMemcpyHostToDevice );
 	errorCheck("cudaMemcpy Muscle up");
