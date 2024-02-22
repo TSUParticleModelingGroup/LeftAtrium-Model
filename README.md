@@ -27,7 +27,7 @@
 <img src="ReadMeImages/RoofFlutter.jpeg" width=30% height=30% class='center'></img>
 <img src="ReadMeImages/Micro.jpeg" width=30% height=30% class='center'></img>
 
-<a id="project-aims"></a>
+<a id="project-aims"></a>    
 ## Project Aims
 Our project has several key objectives. Firstly, we aim to utilize N-body techniques to develop an interactive model of the left atrium. This model will allow users to manipulate various parameters in real-time, facilitating the induction and observation of common arrhythmias.
 
@@ -38,6 +38,7 @@ Additionally, the project aims to advance research in electrophysiology by provi
 In summary, the project's objectives include developing a cutting-edge model for arrhythmia simulation, providing an advanced training tool for medical professionals, and advancing research in electrophysiology.
 
 <a id="background"></a>
+	
 ## Background 
 Heart disease and strokes rank among the leading causes of death globally [1,2]. Supraventricular Tachycardia (SVT) significantly contributes to strokes, heart failure, and, in some cases, acute myocardial infarction [3-5]. Therefore, reducing SVT occurrence is crucial in our efforts to promote healthier lives free of cardiovascular diseases and strokes.
 
