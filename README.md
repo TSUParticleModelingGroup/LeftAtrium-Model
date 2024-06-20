@@ -192,6 +192,7 @@ Refer to the changelog for details.
   - Melanie Little
   - Leah Rogers
   - Derek Hopkins
+  - Zachary Watson
   - Brandon Wyatt
 
 <a id="funding-sources"></a>  
