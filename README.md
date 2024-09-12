@@ -173,7 +173,7 @@ Video Realistic LA: 		https://youtu.be/G_ZcHeLRRjc
 <a id="simulation-runtime-controls"></a>
 ## Simulation Runtime Controls
   
-  <img src="imgs/commands.png" width=80% height=80%>
+  <img src="ReadMeImages/commands.png" width=80% height=80%>
 
 <a id="changelog"></a>
 ## Changelog
